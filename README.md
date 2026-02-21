@@ -4,10 +4,11 @@ A Claude Code skill for self-analysis and personal pattern recognition. Acts as 
 
 ## What It Does
 
-- Tracks patterns across sessions using persistent notes
+- Tracks behavioral and emotional patterns across sessions using persistent local notes
 - Applies therapeutic frameworks (CBT, attachment theory, IFS, somatic/polyvagal, and more) without announcing them
+- Searches current research before making any clinical claim — sources cited inline
 - Produces structured clinical observations you can share with a human therapist
-- Supports catch-up import from other AI conversations
+- Imports and summarizes chat history from other AI conversations
 - Remembers your preferred language and terminology already explained
 
 ## Installation
@@ -55,7 +56,7 @@ The skill will give you a prompt to paste at the end of that conversation. Paste
 
 ### Ending a Session
 
-When you're done, signal it explicitly — say something like "let's wrap up". This tells the skill to do its closing work:
+When you're done, signal it explicitly — say something like "我们今天到这里" or "let's wrap up". This tells the skill to do its closing work:
 
 1. **Synthesize** — distills the session's key themes and turning points into a concise narrative
 2. **Name patterns** — surfaces recurring dynamics that showed up, adding to or refining the running pattern log
