@@ -56,7 +56,7 @@ The skill will give you a prompt to paste at the end of that conversation. Paste
 
 ### Ending a Session
 
-When you're done, signal it explicitly — say something like "我们今天到这里" or "let's wrap up". This tells the skill to do its closing work:
+When you're done, signal it explicitly — say something like "let's wrap up". This tells the skill to do its closing work:
 
 1. **Synthesize** — distills the session's key themes and turning points into a concise narrative
 2. **Name patterns** — surfaces recurring dynamics that showed up, adding to or refining the running pattern log
